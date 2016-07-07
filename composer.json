@@ -1,0 +1,19 @@
+{
+    "name": "milsdev/must-use-loader",
+    "description": "This small WordPress plugin include all plugins in subdirectories from Must Use plugin folder",
+    "type": "webroot",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Frank Bültge",
+            "email": "frank@bueltge.de"
+        }
+    ],
+    "require": {
+        "fancyguy/webroot-installer": "1.0.0"
+    },
+    "extra": {
+      "webroot-dir": "wp-content/mu-plugins",
+      "webroot-package": "milsdev/must-use-loader"
+    }
+}

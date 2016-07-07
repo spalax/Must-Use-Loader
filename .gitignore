@@ -2,10 +2,9 @@
 **/
 
 ## Allow
-!/assets
-!/assets/*
 !mustuse*.php
-!readme.md
 
 ## Allow also .gitignore
 !.gitignore
+
+/vendor/
